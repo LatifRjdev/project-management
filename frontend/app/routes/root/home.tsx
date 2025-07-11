@@ -1,15 +1,14 @@
-import React from 'react'
-import type { Route } from '../../+types/root'
-import { Button } from '@/components/ui/button'
-import { Link } from 'react-router';
+import React from "react";
+import type { Route } from "../../+types/root";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router";
 
 export function meta({}: Route.MetaArgs) {
-    return [
-        { title: "ProjectHub" },
-        { name: "description", content: "Welcome back!"}
-    ]
+  return [
+    { title: "TaskHub" },
+    { name: "description", content: "Welcome to TaskHub!" },
+  ];
 }
-
 
 const Homepage = () => {
   return (
